@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InfoPaginaService } from './services/info-pagina.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portafolio';
+
+ /* Este constructo va a funcionar como
+    una inyeccion de una dependencia    
+ */
+  constructor( public infoPaginaService: InfoPaginaService ){
+
+  }
 }
