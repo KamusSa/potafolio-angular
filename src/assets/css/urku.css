@@ -1356,7 +1356,7 @@ body {
 }
 
 /* @media (min-width: 40em) { */
-@media (min-width: 40em) {  
+@media (min-width: .20em) {  
   .item-inside-1 {
     background-size: 100%;
   }
